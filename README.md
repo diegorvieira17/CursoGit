@@ -87,4 +87,4 @@
 
 >>+ Antes de mais nada precisamos criar o arquivo .gitignore no diretório do projeto.
 >>+ Feito isso, basta incluir os arquivos que você não quer que sejam versionados pelo GIT linha a linha. Simples assim.
->>>* Ex.: *db.conf*
+>>>* Ex.: *conf.php*
