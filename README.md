@@ -44,10 +44,10 @@
 >>>* Ex.: *git init*
 
 >>+ git status => Mostra o status de todos os arquivos que estão no diretório. São possíveis os seguintes tipos de status. Seguem eles abaixo:
->>>>- Untracked files => Arquivos que não estão sendo controlados pelo git.
->>>>- Changes not staged to be committed => Arquivos que foram modificados mas não foram adicionados a lista de commit.
->>>>- Changes to be committed => Arquivos que estão prontos para serem comitados.
->>>>- Nothing to be committed => Não existe nenhuma informação a ser commitada. Todos os arquivos estão de acordo com o último commit.
+>>>>* Untracked files => Arquivos que não estão sendo controlados pelo git.
+>>>>* Changes not staged to be committed => Arquivos que foram modificados mas não foram adicionados a lista de commit.
+>>>>* Changes to be committed => Arquivos que estão prontos para serem comitados.
+>>>>* Nothing to be committed => Não existe nenhuma informação a ser commitada. Todos os arquivos estão de acordo com o último commit.
 >>>* Ex.: *git config --global "Diego Vieira"*
 
 >>+ git add => Adicona arquivos ao controle de versão e ao pacote para ser commitado.
@@ -57,8 +57,8 @@
 >>>* Ex.: *git commit -m "first commit"*
 >>>* Ex.: *git commit -a*
 >>>* Ex.: *git commit -a -m "first commit"*
->>>>- -m => indica que será adicionada uma mensagem para descrever as alterações do commit. Caso o parâmetro -m seja omitido, o git abrirá o editor de texto padrão da máquina com o arquivo de mensagem para que o usuário insira a descriçao do commit.
->>>>- -a => adiciona todos os arquivos untracked e not staged ao pacote de commit e faz o commit sem precisar realizar em duas etapas como o git add e depois o git commit.
+>>>>* -m => indica que será adicionada uma mensagem para descrever as alterações do commit. Caso o parâmetro -m seja omitido, o git abrirá o editor de texto padrão da máquina com o arquivo de mensagem para que o usuário insira a descriçao do commit.
+>>>>* -a => adiciona todos os arquivos untracked e not staged ao pacote de commit e faz o commit sem precisar realizar em duas etapas como o git add e depois o git commit.
 
 >>+ git log => Mostra todos os commits realizados no diretório.
 >>>* Ex.: *git log*
@@ -68,16 +68,16 @@
 >>>* Ex.: *git log --pretty=oneline*
 >>>* Ex.: *git log --pretty=format:"%h - %an, %ar : %s"*
 >>>* Ex.: *git log --since=2.days*
->>>>- -p => Mostra detalhadamente todos os commits realizados.
->>>>- -p -2 => Igual -p porém mostra apenas os últimos 2 commits.
->>>>- --stat => Mostra todos as estatísticas resumidas de todos os commits.
->>>>- --pretty=oneline => Mostra em apenas uma linha as informações resumidas dos commits (mostra todos).
->>>>- --pretty=format => Mostra de forma semelhante ao oneline mas formatado de acordo com a sua necessidade.
->>>>>- %h => hash do commit.
->>>>>- %an => Nome do colaborador que criou o commit.
->>>>>- %ar => Quanto tempo atrás foi criado o commit.
->>>>>- %s => Mensagem do commit.
->>>>- --since => mostra todos os commits realizados nos últimos n dias. No caso do exemplo, nos últimos 2 dias.
+>>>>* -p => Mostra detalhadamente todos os commits realizados.
+>>>>* -p -2 => Igual -p porém mostra apenas os últimos 2 commits.
+>>>>* --stat => Mostra todos as estatísticas resumidas de todos os commits.
+>>>>* --pretty=oneline => Mostra em apenas uma linha as informações resumidas dos commits (mostra todos).
+>>>>* --pretty=format => Mostra de forma semelhante ao oneline mas formatado de acordo com a sua necessidade.
+>>>>>* %h => hash do commit.
+>>>>>* %an => Nome do colaborador que criou o commit.
+>>>>>* %ar => Quanto tempo atrás foi criado o commit.
+>>>>>* %s => Mensagem do commit.
+>>>>* --since => mostra todos os commits realizados nos últimos n dias. No caso do exemplo, nos últimos 2 dias.
 
 
 # Como ignorar arquivos no controle de versão do GIT.
